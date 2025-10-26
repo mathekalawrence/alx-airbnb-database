@@ -34,7 +34,7 @@
    - Foreign Keys: sender_id → User.user_id, recipient_id → User.user_id
    - Attributes: message_body, sent_at
 
-## Relationships
+# Relationships
 - User (1) → (N) Property [host relationship]
 - User (1) → (N) Booking [guest relationship]  
 - Property (1) → (N) Booking
@@ -46,3 +46,4 @@
 ## Indexing Strategy
 - All primary keys automatically indexed
 - Additional indexes on: User.email, Property.property_id, Booking.property_id
+
