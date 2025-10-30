@@ -1,4 +1,4 @@
-# Airbnb Database Seeding Script
+#Airbnb Database Seeding Script
 
 ## Overview
 This script populates the **Airbnb Database** with sample data for testing and demonstration purposes.  
